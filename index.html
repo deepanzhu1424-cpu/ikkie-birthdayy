@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d25">
+  <title>For Ikkie ✨ | A Sky Full of Wishes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <div class="shooting-star" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a href="#home" class="logo">for ikk ie <span>♥</span></a>
+    <button id="musicBtn" class="music-btn" type="button">
+      ♫ Play our song
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="moon" aria-hidden="true">☾</div>
+      <p class="eyebrow">A LITTLE UNIVERSE, JUST FOR YOU</p>
+      <h1>Happy Birthday,<br><span>Ikkie</span> ✨</h1>
+      <p class="hero-text">
+        If I could give you one thing in this universe,
+        it would be the ability to see yourself through my eyes.
+      </p>
+      <a class="button" href="#birthday">Your surprise awaits ↓</a>
+      <p class="tiny-note">Made with all my heart, just for you.</p>
+    </section>
+
+    <section class="section birthday" id="birthday">
+      <p class="eyebrow">TODAY IS ALL ABOUT YOU</p>
+      <h2>Make a wish, birthday girl 🎂</h2>
+      <p class="muted">Close your eyes, make a wish, and tap the cake.</p>
+
+      <div class="cake-area">
+        <div class="cake" id="cake" role="button" tabindex="0"
+             aria-label="Blow out the birthday candles">
+          <div class="flames">
+            <span class="flame"></span>
+            <span class="flame"></span>
+            <span class="flame"></span>
+          </div>
+          <div class="candles"><i></i><i></i><i></i></div>
+          <div class="icing"></div>
+          <div class="cake-top"></div>
+          <div class="cake-bottom"></div>
+          <div class="cake-plate"></div>
+        </div>
+      </div>
+      <p id="cakeMessage" class="cake-message" aria-live="polite">
+        Tap the cake to make your wish come true 💫
+      </p>
+      <button id="wishBtn" class="button" type="button">
+        I made a wish ✨
+      </button>
+      <div id="confetti" class="confetti" aria-hidden="true"></div>
+    </section>
+
+    <section class="section countdown-section">
+      <p class="eyebrow">UNTIL YOUR NEXT BIRTHDAY</p>
+      <h2>Counting the stars for you 🌟</h2>
+      <p class="muted">Every second is another reason to celebrate you.</p>
+      <div class="countdown" id="countdown">
+        <div><strong id="days">--</strong><span>Days</span></div>
+        <div><strong id="hours">--</strong><span>Hours</span></div>
+        <div><strong id="minutes">--</strong><span>Minutes</span></div>
+        <div><strong id="seconds">--</strong><span>Seconds</span></div>
+      </div>
+      <p class="tiny-note">Change your birthday date in script.js.</p>
+    </section>
+
+    <section class="section memories" id="memories">
+      <p class="eyebrow">MY FAVOURITE LITTLE MOMENTS</p>
+      <h2>Our Little Universe 📸</h2>
+      <p class="muted">Every picture holds a piece of my heart.</p>
+
+      <div class="photo-grid">
+        <button class="photo-card" data-photo="images/memory1.jpg.jpg"
+                aria-label="Open memory one">
+          <img src="images/memory1.jpg.jpg" alt="Our first memory"
+               loading="lazy">
+          <span>my favourite view ♡</span>
+        </button>
+        <button class="photo-card" data-photo="images/memory2.jpg.png"
+                aria-label="Open memory two">
+          <img src="images/memory2.jpg.png" alt="A special memory"
+               loading="lazy">
+          <span>this moment, always ♡</span>
+        </button>
+        <button class="photo-card" data-photo="images/memory3.jpg.jpg"
+                aria-label="Open memory three">
+          <img src="images/memory3.jpg.jpg" alt="Another lovely memory"
+               loading="lazy">
+          <span>you make life softer ♡</span>
+        </button>
+        <button class="photo-card" data-photo="images/memory4.jpg.jpg"
+                aria-label="Open memory four">
+          <img src="images/memory4.jpg.jpg" alt="One more memory"
+               loading="lazy">
+          <span>us, in my universe ♡</span>
+        </button>
+      </div>
+      <p class="tiny-note">Replace these sample photo files with your own pictures.</p>
+    </section>
+
+    <section class="section teddy-section">
+      <p class="eyebrow">A LITTLE HUG FOR YOU</p>
+      <h2>Sending you the biggest hug 🧸</h2>
+      <div class="teddy" aria-label="A cute teddy bear holding a heart">
+        <div class="ear ear-left"></div>
+        <div class="ear ear-right"></div>
+        <div class="teddy-head">
+          <div class="eye eye-left"></div>
+          <div class="eye eye-right"></div>
+          <div class="muzzle"><span>♥</span></div>
+          <div class="blush blush-left"></div>
+          <div class="blush blush-right"></div>
+        </div>
+        <div class="teddy-body">
+          <span class="teddy-heart">♥</span>
+        </div>
+        <div class="paw paw-left"></div>
+        <div class="paw paw-right"></div>
+      </div>
+      <p class="muted">Imagine this little bear giving you a hug from me.</p>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <p class="eyebrow">SOME WORDS FROM MY HEART</p>
+      <h2>A letter for you, Ikkie 💌</h2>
+      <article class="letter">
+        <p class="letter-start">To my favourite person,</p>
+        <p>
+          Happy Birthday, Ikkie. ❤️
+        </p>
+        <p>
+          If the universe gave me a thousand chances to choose someone
+          special, a part of me would still look for you in every lifetime.
+          You make ordinary moments feel like something worth remembering.
+        </p>
+        <p>
+          On your birthday, I wish you happiness that stays, dreams that
+          come true, peaceful days, and countless reasons to smile. I hope
+          you always remember how precious you are and how much light you
+          bring into the lives of people who love you.
+        </p>
+        <p>
+          Thank you for being a part of my story. I hope this new year of
+          your life brings you beautiful surprises and memories you will
+          keep close to your heart.
+        </p>
+        <p>
+          No website could ever fit everything I feel for you, but I hope
+          this little corner of the internet makes you smile.
+        </p>
+        <p class="letter-end">With all my love,<br>Your favourite person ♡</p>
+      </article>
+    </section>
+
+    <section class="section secret-section">
+      <p class="eyebrow">PSSST… ONE LAST THING</p>
+      <h2>A tiny secret for you 🤫</h2>
+      <p class="muted">There is something hidden in this little universe.</p>
+      <button class="button" id="secretBtn" type="button">
+        Open your secret 💌
+      </button>
+      <div id="secretMessage" class="secret-message" hidden>
+        <div class="secret-heart">♥</div>
+        <h3>You're my favourite kind of magic, Ikkie.</h3>
+        <p>
+          No stars, no moon, no galaxy could ever be as special to me
+          as the little moments that have you in them. Happy Birthday,
+          meri favourite person. ❤️
+        </p>
+        <p class="signature">Always cheering for you ✨</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>Made under a million stars, just for Ikkie ♡</p>
+      <a href="#home">Back to our sky ↑</a>
+    </footer>
+  </main>
+
+  <audio id="bgMusic" src="audio/song.mp3" loop preload="none"></audio>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button id="closeLightbox" class="close-lightbox"
+            aria-label="Close photo">×</button>
+    <img id="lightboxImage" src="" alt="Expanded memory">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
